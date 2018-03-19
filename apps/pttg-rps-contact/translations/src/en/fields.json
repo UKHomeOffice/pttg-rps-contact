@@ -1,0 +1,54 @@
+{
+  "title": {
+    "label": "Title"
+  },
+  "name": {
+    "label": "Name",
+    "validation": {
+      "required": "Name is required"
+    }
+  },
+  "surname": {
+    "label": "Family name",
+    "validation": {
+      "required": "Family name is required"
+    }
+  },
+  "telephone": {
+    "label": "Telephone",
+    "hint": "We may need to contact you by phone to answer your question."
+  },
+  "email-address": {
+    "label": "Email",
+    "validation": {
+      "email": "Please enter a valid email address containing an '@' symbol"
+    }
+  },
+  "existing": {
+    "legend": "Is your question about an existing application?",
+    "validation": {
+      "required": "Tell is if this is about an existing application"
+    }
+  },
+  "appref": {
+    "label": "What is your application Reference Number?"
+  },
+  "dob": {  
+    "legend": "What is your date of birth?",
+    "validation": {
+      "date": "A valid date of birth is required"
+    }
+  },
+  "dob-day": {
+    "label": "Day"
+  },
+  "dob-month": {
+    "label": "Month"
+  },
+  "dob-year": {
+    "label": "Year"
+  },
+  "nationality": {
+    "label": "What is your nationality?"
+  }
+}

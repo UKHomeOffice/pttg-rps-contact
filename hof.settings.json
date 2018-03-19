@@ -1,0 +1,9 @@
+{
+  "theme": "govuk",
+  "routes": [
+    "./apps/pttg-rps-contact"
+  ],
+  "session": {
+    "name": "pttg-rps-contact.hof.sid"
+  }
+}
