@@ -17,6 +17,9 @@ module.exports = {
     },
     '/healthz': {
       fields: []
+    },
+    '/ping': {
+      fields: []
     }
   }
 }
