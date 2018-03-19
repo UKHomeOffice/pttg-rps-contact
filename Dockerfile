@@ -1,4 +1,4 @@
-FROM quay.io/ukhomeofficedigital/nodejs-base:v6.11.1
+FROM quay.io/ukhomeofficedigital/nodejs-base:v8.9.4
 
 ENV USER pttg
 ENV GROUP pttg
@@ -21,6 +21,6 @@ RUN chmod a+x /app/run.sh
 
 USER pttg
 
-EXPOSE 8000
+EXPOSE 8080
 
 ENTRYPOINT /app/run.sh
