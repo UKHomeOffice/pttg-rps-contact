@@ -15,7 +15,9 @@ module.exports = {
     '/complete': {
       template: 'confirmation'
     },
-    '/healthz': {}
+    '/healthz': {
+      fields: []
+    }
   }
 }
 
