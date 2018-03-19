@@ -14,7 +14,8 @@ module.exports = {
     },
     '/complete': {
       template: 'confirmation'
-    }
+    },
+    '/healthz': {}
   }
 }
 
