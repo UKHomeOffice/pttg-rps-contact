@@ -4,6 +4,7 @@ const dateComponent = require('hof-component-date')
 
 module.exports = {
   name: {
+    mixin: 'input-text',
     validate: 'required'
   },
   existing: {
@@ -13,7 +14,7 @@ module.exports = {
       yes: {
         label: 'Yes',
         value: 'Y',
-        toggle: 'appref-group, dob-group'
+        toggle: 'conditional'
       },
       no: {
         label: 'No',
@@ -21,10 +22,16 @@ module.exports = {
       }
     }
   },
+  appref: {
+    mixin: 'input-text'
+  },
   dob: dateComponent('dob', {
     validate: ['required', 'date', 'before']
   }),
-  'email-address': {
+  nationality: {
+    mixin: 'input-text'
+  },
+  'email': {
     validate: ['email', 'required']
   },
   topic: {

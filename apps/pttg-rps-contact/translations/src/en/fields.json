@@ -9,7 +9,7 @@
     "label": "Telephone",
     "hint": "We may need to contact you by phone to answer your question."
   },
-  "email-address": {
+  "email": {
     "label": "Email *",
     "validation": {
       "email": "Please enter a valid email address containing an '@' symbol"

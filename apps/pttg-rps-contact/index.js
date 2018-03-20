@@ -5,8 +5,9 @@ module.exports = {
   baseUrl: '/',
   steps: {
     '/contact': {
-      fields: ['name', 'telephone', 'email-address', 'existing', 'appref', 'dob', 'nationality', 'topic', 'question'],
-      next: '/confirm'
+      fields: ['name', 'telephone', 'email', 'existing', 'appref', 'dob', 'nationality', 'topic', 'question'],
+      next: '/confirm',
+      template: 'contact-page'
     },
     '/confirm': {
       behaviours: ['complete', require('hof-behaviour-summary-page')],
