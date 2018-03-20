@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   steps: {
     '/contact': {
-      fields: ['title', 'name', 'surname', 'telephone', 'email-address', 'existing', 'appref', 'dob', 'nationality'],
+      fields: ['name', 'telephone', 'email-address', 'existing', 'appref', 'dob', 'nationality', 'topic', 'question'],
       next: '/confirm'
     },
     '/confirm': {

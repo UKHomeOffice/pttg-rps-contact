@@ -1,17 +1,8 @@
 {
-  "title": {
-    "label": "Title"
-  },
   "name": {
-    "label": "Name",
+    "label": "Full name *",
     "validation": {
-      "required": "Name is required"
-    }
-  },
-  "surname": {
-    "label": "Family name",
-    "validation": {
-      "required": "Family name is required"
+      "required": "Full name is required"
     }
   },
   "telephone": {
@@ -19,15 +10,21 @@
     "hint": "We may need to contact you by phone to answer your question."
   },
   "email-address": {
-    "label": "Email",
+    "label": "Email *",
     "validation": {
       "email": "Please enter a valid email address containing an '@' symbol"
     }
   },
   "existing": {
-    "legend": "Is your question about an existing application?",
+    "legend": "Is your question about an existing application? *",
     "validation": {
       "required": "Tell is if this is about an existing application"
+    }
+  },
+  "topic": {
+    "label": "What is your question about?",
+    "validation": {
+      "required": "Tell us what your question is about"
     }
   },
   "appref": {
@@ -50,5 +47,8 @@
   },
   "nationality": {
     "label": "What is your nationality?"
+  },
+  "question": {
+    "label": "Your question"
   }
 }
