@@ -15,7 +15,8 @@ module.exports = {
     options: {
       yes: {
         label: 'Yes',
-        value: 'Y'
+        value: 'Y',
+        toggle: 'appref-group'
       },
       no: {
         label: 'No',
