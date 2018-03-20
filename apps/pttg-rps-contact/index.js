@@ -14,12 +14,6 @@ module.exports = {
     },
     '/complete': {
       template: 'confirmation'
-    },
-    '/healthz': {
-      fields: []
-    },
-    '/ping': {
-      fields: []
     }
   }
 }
