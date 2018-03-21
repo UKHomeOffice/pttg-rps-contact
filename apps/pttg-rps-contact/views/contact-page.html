@@ -15,8 +15,10 @@
 
 <div id="conditional">
   {{#input-text}}appref{{/input-text}}
-
-  {{#renderField}}dob{{/renderField}}
+  <div class="form-group form-date">
+    <legend>{{#t}}fields.dob.legend{{/t}}</legend>
+    {{#input-date}}dob{{/input-date}}
+  </div>
 </div>
 
 {{#input-text}}nationality{{/input-text}}
