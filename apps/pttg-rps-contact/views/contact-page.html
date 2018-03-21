@@ -5,27 +5,29 @@
 {{/beforeFields}}
 
 
-{{#renderField}}name{{/renderField}}
+{{#input-text}}name{{/input-text}}
 
-{{#renderField}}telephone{{/renderField}}
+{{#input-text}}telephone{{/input-text}}
 
-{{#renderField}}email{{/renderField}}
+{{#input-text}}email{{/input-text}}
 
-{{#renderField}}existing{{/renderField}}
+{{#radio-group}}existing{{/radio-group}}
 
-{{#renderField}}appref{{/renderField}}
+<div id="conditional">
+  {{#input-text}}appref{{/input-text}}
 
-<div class="dob">
-{{#renderField}}dob{{/renderField}}
-</div}}>
+  {{#renderField}}dob{{/renderField}}
+</div>
 
-{{#renderField}}nationality{{/renderField}}
+{{#input-text}}nationality{{/input-text}}
 
-{{#renderField}}topic{{/renderField}}
+{{#select}}topic{{/select}}
 
-{{#renderField}}question{{/renderField}}
+{{#textarea}}question{{/textarea}}
 
 
+
+{{#input-submit}}next{{/input-submit}}
 
 {{#afterFields}}
 {{afterFields}}
